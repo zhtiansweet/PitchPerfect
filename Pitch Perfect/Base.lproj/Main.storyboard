@@ -125,15 +125,6 @@
                                     <action selector="playFast:" destination="tFY-YE-E5b" eventType="touchUpInside" id="tyx-s4-8JG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKU-bZ-gwj">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" image="stopPlay">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="stopPlay:" destination="tFY-YE-E5b" eventType="touchUpInside" id="WVq-C8-64g"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xJ-Wq-aXs">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="chipmunk">
@@ -152,12 +143,21 @@
                                     <action selector="playDarthVader:" destination="tFY-YE-E5b" eventType="touchUpInside" id="UIP-CS-vAa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKU-bZ-gwj">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="stopPlay">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stopPlay:" destination="tFY-YE-E5b" eventType="touchUpInside" id="WVq-C8-64g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="kx8-9b-4oy" secondAttribute="trailing" constant="30" id="4sw-F6-sDz"/>
                             <constraint firstItem="8xJ-Wq-aXs" firstAttribute="leading" secondItem="68X-HQ-jDc" secondAttribute="leadingMargin" constant="30" id="7eC-Yd-Sdl"/>
-                            <constraint firstAttribute="centerX" secondItem="wKU-bZ-gwj" secondAttribute="centerX" constant="-9" id="BkM-CH-bZM"/>
+                            <constraint firstAttribute="centerX" secondItem="wKU-bZ-gwj" secondAttribute="centerX" id="Aa4-pn-fBS"/>
                             <constraint firstItem="kx8-9b-4oy" firstAttribute="top" secondItem="2ZC-Fm-Emu" secondAttribute="bottom" constant="55" id="FWX-Ec-s9E"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AWy-Z4-TZ4" secondAttribute="trailing" constant="30" id="Hxb-cD-bmJ"/>
                             <constraint firstItem="Gdy-3z-ysj" firstAttribute="top" secondItem="wKU-bZ-gwj" secondAttribute="bottom" constant="55" id="N4A-XU-a3C"/>
@@ -170,42 +170,42 @@
                             <mask key="subviews">
                                 <exclude reference="4YP-ep-DtI"/>
                                 <exclude reference="kx8-9b-4oy"/>
-                                <exclude reference="wKU-bZ-gwj"/>
                                 <exclude reference="8xJ-Wq-aXs"/>
                                 <exclude reference="AWy-Z4-TZ4"/>
+                                <exclude reference="wKU-bZ-gwj"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="N4A-XU-a3C"/>
                                 <exclude reference="U0w-VC-QWV"/>
                                 <exclude reference="cdx-Aa-prv"/>
                                 <exclude reference="7eC-Yd-Sdl"/>
                                 <exclude reference="OPC-ug-ddF"/>
-                                <exclude reference="Hxb-cD-bmJ"/>
-                                <exclude reference="SLA-gI-qYR"/>
                                 <exclude reference="4sw-F6-sDz"/>
                                 <exclude reference="FWX-Ec-s9E"/>
-                                <exclude reference="BkM-CH-bZM"/>
+                                <exclude reference="Hxb-cD-bmJ"/>
+                                <exclude reference="SLA-gI-qYR"/>
+                                <exclude reference="Aa4-pn-fBS"/>
+                                <exclude reference="N4A-XU-a3C"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="4YP-ep-DtI"/>
                                 <include reference="kx8-9b-4oy"/>
-                                <include reference="wKU-bZ-gwj"/>
                                 <include reference="8xJ-Wq-aXs"/>
                                 <include reference="AWy-Z4-TZ4"/>
+                                <include reference="wKU-bZ-gwj"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="N4A-XU-a3C"/>
                                 <include reference="U0w-VC-QWV"/>
                                 <include reference="cdx-Aa-prv"/>
                                 <include reference="7eC-Yd-Sdl"/>
                                 <include reference="OPC-ug-ddF"/>
-                                <include reference="Hxb-cD-bmJ"/>
-                                <include reference="SLA-gI-qYR"/>
                                 <include reference="4sw-F6-sDz"/>
                                 <include reference="FWX-Ec-s9E"/>
-                                <include reference="BkM-CH-bZM"/>
+                                <include reference="Hxb-cD-bmJ"/>
+                                <include reference="SLA-gI-qYR"/>
+                                <include reference="Aa4-pn-fBS"/>
+                                <include reference="N4A-XU-a3C"/>
                             </mask>
                         </variation>
                     </view>
