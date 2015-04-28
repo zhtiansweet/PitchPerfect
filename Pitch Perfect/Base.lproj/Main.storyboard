@@ -149,7 +149,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playDarthVader:" destination="tFY-YE-E5b" eventType="touchUpInside" id="f3t-h5-CxM"/>
+                                    <action selector="playDarthVader:" destination="tFY-YE-E5b" eventType="touchUpInside" id="UIP-CS-vAa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -209,9 +209,6 @@
                             </mask>
                         </variation>
                     </view>
-                    <connections>
-                        <outlet property="playDarthVader" destination="AWy-Z4-TZ4" id="YBc-Uu-B9e"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97c-xD-RfG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
