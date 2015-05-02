@@ -175,16 +175,16 @@
                                 <exclude reference="wKU-bZ-gwj"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="N4A-XU-a3C"/>
                                 <exclude reference="U0w-VC-QWV"/>
                                 <exclude reference="cdx-Aa-prv"/>
                                 <exclude reference="7eC-Yd-Sdl"/>
                                 <exclude reference="OPC-ug-ddF"/>
-                                <exclude reference="4sw-F6-sDz"/>
-                                <exclude reference="FWX-Ec-s9E"/>
                                 <exclude reference="Hxb-cD-bmJ"/>
                                 <exclude reference="SLA-gI-qYR"/>
+                                <exclude reference="4sw-F6-sDz"/>
+                                <exclude reference="FWX-Ec-s9E"/>
                                 <exclude reference="Aa4-pn-fBS"/>
-                                <exclude reference="N4A-XU-a3C"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -196,16 +196,16 @@
                                 <include reference="wKU-bZ-gwj"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="N4A-XU-a3C"/>
                                 <include reference="U0w-VC-QWV"/>
                                 <include reference="cdx-Aa-prv"/>
                                 <include reference="7eC-Yd-Sdl"/>
                                 <include reference="OPC-ug-ddF"/>
-                                <include reference="4sw-F6-sDz"/>
-                                <include reference="FWX-Ec-s9E"/>
                                 <include reference="Hxb-cD-bmJ"/>
                                 <include reference="SLA-gI-qYR"/>
+                                <include reference="4sw-F6-sDz"/>
+                                <include reference="FWX-Ec-s9E"/>
                                 <include reference="Aa4-pn-fBS"/>
-                                <include reference="N4A-XU-a3C"/>
                             </mask>
                         </variation>
                     </view>
